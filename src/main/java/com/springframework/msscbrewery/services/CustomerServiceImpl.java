@@ -12,7 +12,7 @@ public class CustomerServiceImpl implements CustomerService {
 
 	@Override
 	public CustomerDto getCustById(UUID custid) {
-		return CustomerDto.builder().id(UUID.randomUUID()).name("Ashis Mohapatra").build();
+		return CustomerDto.builder().id(UUID.randomUUID()).name("Ashis Mohan Mohapatra").build();
 		
 	}
 
